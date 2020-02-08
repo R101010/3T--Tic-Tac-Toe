@@ -7,11 +7,12 @@ td {
     width: 100px;
     height: 100px;
     cursor: crosshair;
-    
 }
 table {
     margin: auto;
     border-collapse: collapse;
+    text-align: center;
+    font-size: 85px;
 }
 
 button {
@@ -32,21 +33,22 @@ button:hover {
     color: darkorange; 
 }
 
-#a1, #c1, #b1 { 
+.topRow { 
     border-bottom: 10px solid black;
 }
 
-#a1, #a2 , #a3{
+.leftCol {
     border-right: 10px solid black;
 }
-#c1, #c2, #c3 {
+.rightCol {
     border-left: 10px solid black;
 }
-#a3, #b3, #c3  {
+.bottomRow  {
     border-top: 10px solid black;
 }
-#a1:hover ,#a2:hover , #a3:hover , #b1:hover , #b2:hover , #b3:hover , #c1:hover , #c2:hover , #c3:hover  {
+.space:hover  {
     background-color: tomato;
 }
+
 
 

@@ -8,25 +8,25 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1>3T: Tic Tac Toe</h1>
+    <h1 id="Heading">3T: Tic Tac Toe</h1>
     <table id="board">
         <tr>
-            <td class="space" id="a1"></td>
-            <td class="space" id="b1"></td>
-            <td class="space" id="c1"></td>
+            <td class="space topRow leftCol" id="0"></td>
+            <td class="space topRow" id="1"></td>
+            <td class="space topRow rightCol" id="2"></td>
         </tr>
         <tr>
-            <td class="space" id="a2"></td>
-            <td class="space" id="b2"></td>
-            <td class="space" id="c2"></td>
+            <td class="space leftCol" id="3"></td>
+            <td class="space" id="4"></td>
+            <td class="space rightCol" id="5"></td>
         </tr>
         <tr>
-            <td class="space" id="a3"></td>
-            <td class="space" id="b3"></td>
-            <td class="space" id="c3"></td>
+            <td class="space bottomRow leftCol" id="6"></td>
+            <td class="space bottomRow" id="7"></td>
+            <td class="space bottomRow rightCol" id="8"></td>
         </tr>
     </table>
-<button type="button">Reset Game</button>
-<script defer src="main.js"></script>
+<button id="restart">Reset Game</button>
+<script defer src="js/main.js"></script>
 </body>
 </html>
